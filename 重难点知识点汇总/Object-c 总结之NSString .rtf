@@ -1,0 +1,185 @@
+{\rtf1\ansi\ansicpg936\cocoartf1404\cocoasubrtf460
+{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\fnil\fcharset134 STSongti-SC-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue233;\red255\green0\blue0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25360\viewh12960\viewkind0
+\deftab720
+\pard\pardeftab720\sl560\sa321\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://www.cnblogs.com/superhappy/archive/2012/01/31/2332938.html"}}{\fldrslt 
+\f0\b\fs28 \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 Object-c 
+\f1 \'d7\'dc\'bd\'e1\'d6\'ae
+\f0 NSString}}
+\f0\b\fs28 \expnd0\expndtw0\kerning0
+ \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0 \cf0 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\f1 \cf0 \'b2\'ce\'d5\'d5\'a1\'b6
+\f0 iphone SDK 3
+\f1 \'bf\'aa\'b7\'a2\'bf\'ec\'cb\'d9\'c9\'cf\'ca\'d6\'a1\'b7\'b1\'e0\'d0\'b4\'a3\'ac\'cc\'d8\'b4\'cb\'c9\'f9\'c3\'f7
+\f0  \'a0 \'a0 \'a0 \'a0\
+\'a0 \'a0 \'a0\cf3  \'a0//
+\f1 \'d6\'b1\'bd\'d3\'b3\'f5\'ca\'bc\'bb\'af\'b4\'b4\'bd\'a8\'d2\'bb\'b8\'f6
+\f0 NSString\cf0 \
+\'a0 \'a0 \'a0 \'a0 NSString *myString1 = @"some string";\
+\'a0 \'a0 \'a0 \'a0 NSLog(@"%@",myString1);\
+\'a0 \'a0 \'a0 \'a0\
+\cf3 \'a0 \'a0 \'a0 \'a0 //
+\f1 \'b8\'f1\'ca\'bd\'bb\'af\'b4\'b4\'bd\'a8
+\f0 \cf0 \
+\'a0 \'a0 \'a0 \'a0 NSString *myString2 = [NSString stringWithFormat:@"%@",myString1];\
+\'a0 \'a0 \'a0 \'a0 \'a0 NSLog(@"%@",myString2);\
+        int 
+\f1 a = 10;\
+        NSString * myString2 = [NSString stringWithFormat:@\'a1\'b0%@,%d\'a1\'b1,myString1,a];\
+
+\f0 \
+\'a0 \'a0 \'a0 \'a0 //
+\f1 \'b7\'b5\'bb\'d8\'ca\'fd\'d7\'d6\'b5\'c4\'d6\'b5
+\f0 \
+\'a0 \'a0 \'a0 \'a0 NSString *myString3 = @"1234abc";\
+\'a0 \'a0 \'a0 \'a0 double doubleString = [myString3 floatValue];//
+\f1 \'bb\'f1\'b5\'c3
+\f0 123\
+\'a0 \'a0 \'a0 \'a0 \'a0 NSLog(@"%f",doubleString);\
+\'a0 \'a0 \'a0 \'a0 int intString = [myString3 intValue];//
+\f1 \'bb\'f1\'b5\'c3
+\f0 123\
+\'a0 \'a0 \'a0 \'a0 NSLog(@"%d",intString);\
+\'a0 \'a0 \'a0 \'a0 NSUInteger stringLenth = [myString3 length];\
+\'a0 \'a0 \'a0 \'a0 /*NSUinteger 
+\f1 \'b5\'c4\'ca\'e4\'b3\'f6\'b7\'bd\'ca\'bd\'ce\'aa
+\f0 %lu*/\
+\'a0 \'a0 \'a0 \'a0 NSLog(@"%lu",stringLenth);\
+\'a0 \'a0 \'a0 \'a0 //
+\f1 \'b1\'c8\'bd\'cf\'c1\'bd\'b8\'f6\'d7\'d6\'b7\'fb\'b4\'ae
+\f0 ,
+\f1 \'c8\'f4\'cf\'e0\'cd\'ac\'b7\'b5\'bb\'d8
+\f0 TURE\
+\'a0 \'a0 \'a0 \'a0 BOOL areEqual =\'a0\
+\'a0 \'a0 \'a0 \'a0 [myString1 isEqualToString:myString2];\
+\'a0 \'a0 \'a0 \'a0 NSLog(@"areEqual = %d",areEqual);\
+\'a0 \'a0 \'a0 \'a0 //
+\f1 \'c7\'f8\'b7\'d6\'b4\'f3\'d0\'a1\'d0\'b4\'b5\'c4\'b1\'c8\'bd\'cf
+\f0 \
+\'a0 \'a0 \'a0 \'a0 BOOL areEqual1 = ([myString1 caseInsensitiveCompare:myString2] == NSOrderedSame);\
+\'a0 \'a0 \'a0 \'a0 NSLog(@"areEqual1 = %d",areEqual1);\
+\'a0 \'a0 \'a0 \'a0 //
+\f1 \'d7\'aa\'bb\'bb\'b4\'f3\'d0\'a1\'d0\'b4
+\f0 \
+\'a0 \'a0 \'a0 \'a0 NSString *myString4 = @"asdfg";\
+\'a0 \'a0 \'a0 \'a0 NSString *upper = [myString4 uppercaseString];\
+\'a0 \'a0 \'a0 \'a0 NSString *lower = [upper lowercaseString];\
+\'a0 \'a0 \'a0 \'a0 NSLog(@"upper = %@",upper);\
+\'a0 \'a0 \'a0 \'a0 NSLog(@"lower = %@",lower);\
+\'a0\'a0 \'a0 \'a0 \'a0\
+\'a0 \'a0 \'a0 \'a0 //
+\f1 \'bd\'d8\'c8\'a5\'d7\'d6\'b7\'fb\'b4\'ae
+\f0 (
+\f1 \'d2\'d4\'bf\'d5\'b8\'f1\'ce\'aa\'c0\'fd
+\f0 )\
+\'a0 \'a0 \'a0 \'a0 NSString *myString5 = @" \'a0 one \'a0 \'a0 two three\'a0 ";\
+\'a0 \'a0 \'a0 \'a0 NSString *trimmed1 = [myString5 stringByTrimmingCharactersInSet:[NSCharacterSetwhitespaceAndNewlineCharacterSet]];\
+\'a0 \'a0 \'a0 \'a0 //whitespaceAndNewlineCharacterSet
+\f1 \'c8\'a5\'b3\'fd\'c7\'b0\'ba\'f3\'b5\'c4\'bf\'d5\'b8\'f1\'ba\'cd\'bb\'bb\'d0\'d0\'b7\'fb
+\f0 \
+\'a0 \'a0 \'a0 \'a0 NSString *trimmed2 = [myString5 stringByTrimmingCharactersInSet:[NSCharacterSetwhitespaceCharacterSet]];\
+\'a0 \'a0 \'a0 \'a0 //whitespaceCharacterSet 
+\f1 \'c8\'a5\'b3\'fd\'c7\'b0\'ba\'f3\'b5\'c4\'bf\'d5\'b8\'f1
+\f0 ,
+\f1 \'ca\'b5\'bc\'ca\'d0\'a7\'b9\'fb\'c0\'b4\'bf\'b4\'d6\'bb\'ca\'b5\'cf\'d6\'c1\'cb\'c8\'a5\'b3\'fd\'ca\'d7\'d7\'d6\'c4\'b8\'c7\'b0\'c3\'e6\'b5\'c4\'bf\'d5\'b8\'f1
+\f0 \
+\'a0\'a0 \'a0 \'a0 \'a0 NSLog(@"myString5 = %@",myString5);\
+\'a0\'a0 \'a0 \'a0 \'a0 NSLog(@"trimmed1 = %@",trimmed1);\
+\'a0\'a0 \'a0 \'a0 \'a0 NSLog(@"trimmed2 = %@",trimmed2);\
+\'a0 \'a0 //predicate 
+\f1 \'b6\'cf\'d1\'d4\'b6\'cf\'b6\'a8\'a3\'ac\'ca\'b9\'bb\'f9\'d3\'da
+\f0 ,
+\f1 \'cf\'c2\'c3\'e6\'b5\'c4\'b7\'bd\'b7\'a8\'ca\'b5\'cf\'d6\'c9\'be\'b3\'fd\'bf\'d5\'b8\'f1
+\f0 \
+\'a0 \'a0 \'a0 \'a0 NSPredicate *noE = [NSPredicatepredicateWithFormat:@"SELF!=''"];\
+\'a0 \'a0 \'a0 \'a0 NSArray *part = [myString5 componentsSeparatedByCharactersInSet:[NSCharacterSetwhitespaceCharacterSet]];\
+\'a0 \'a0 \'a0 \'a0 NSArray *file = [part filteredArrayUsingPredicate:noE];\
+\'a0 \'a0 \'a0 \'a0 NSString *trimmed3 = [file componentsJoinedByString:@""];\
+\'a0\'a0 \'a0 \'a0 \'a0 NSLog(@"trimmed3 = %@",trimmed3);\
+\'a0\'a0 \'a0 \'a0 \'a0\
+\'a0 \'a0 \'a0 \'a0 //
+\f1 \'d3\'d0\'d2\'d1\'d6\'aa\'d7\'d6\'b7\'fb\'b4\'ae\'b4\'b4\'bd\'a8\'d7\'d3\'d7\'d6\'b7\'fb\'b4\'ae
+\f0 \
+\'a0 \'a0 \'a0 \'a0 NSString * number = @"abx cdefghi gklmn";\
+\'a0 \'a0 \'a0 \'a0 //substringToIndex
+\f1 \'bb\'f1\'c8\'a1\'d7\'d6\'b7\'fb\'b4\'ae\'b5\'c4\'c7\'b0\'c8\'fd\'b8\'f6
+\f0 \
+\'a0 \'a0 \'a0 \'a0 //substringFromIndex
+\f1 \'b4\'d3\'b5\'da\'c8\'fd\'b8\'f6\'bf\'aa\'ca\'bc\'bd\'d8\'c8\'a1\'b5\'bd\'d7\'ee\'ba\'f3
+\f0 \
+\'a0 \'a0 \'a0 \'a0 NSString *myString6 = [number substringToIndex:3];\
+\'a0 \'a0 \'a0 \'a0 NSLog(@"myString6 = %@",myString6);\
+\'a0\'a0 \'a0 \'a0 \'a0\
+\'a0 \'a0 \'a0 \'a0 NSRange range = NSMakeRange(4, 5);\
+\'a0 \'a0 \'a0 \'a0 //
+\f1 \'d3\'c3\'b1\'df\'bd\'e7\'bd\'d8\'c8\'a1\'c6\'f0\'ca\'bc\'ce\'bb\'d6\'c3\'ce\'aa\'b5\'da\'cb\'c4\'b8\'f6\'a3\'ac\'b3\'a4\'b6\'c8\'ce\'aa
+\f0 5
+\f1 \'b8\'f6\'b3\'a4\'b6\'c8
+\f0 \
+\'a0 \'a0 \'a0 \'a0 NSString *aString = [number substringWithRange:range];\
+\'a0 \'a0 \'a0 \'a0 NSLog(@"aString = %@",aString);\
+\'a0 \'a0 \'a0 \'a0 //
+\f1 \'b4\'b4\'bd\'a8\'b3\'c9\'ca\'fd\'d7\'e9
+\f0 \
+\'a0 \'a0 \'a0 \'a0 NSArray *arr = [number componentsSeparatedByString:@" "];\
+\'a0 \'a0 \'a0 \'a0 NSLog(@"arr = %@",arr);\
+\'a0 \'a0 \'a0 \'a0 //
+\f1 \'cc\'e6\'bb\'bb\'d7\'d3\'d7\'d6\'b7\'fb\'b4\'ae
+\f0 \
+\'a0 \'a0 \'a0 \'a0 NSString *myString7 = [number stringByReplacingOccurrencesOfString:@"efg"withString:@"aaa"];\
+\'a0 \'a0 \'a0 \'a0 NSLog(@"myString7 = %@",myString7);\
+\'a0 \'a0 \'a0 \'a0 //
+\f1 \'b2\'e9\'d5\'d2\'d7\'d3\'d7\'d6\'b7\'fb\'b4\'ae
+\f0 ,
+\f1 \'d5\'e2\'b6\'ce\'b4\'fa\'c2\'eb\'b7\'b5\'bb\'d8\'a3\'a8
+\f0 4,3
+\f1 \'a3\'a9
+\f0 ;\
+\'a0 \'a0 \'a0 \'a0 NSRange found = [number rangeOfString:@"cde"];\
+\'a0 \'a0 \'a0 \'a0 NSLog(@"found.location = %lu",found.location);\
+\'a0 \'a0 \'a0 \'a0 NSLog(@"%lu",found.length);\
+\'a0 \'a0 \'a0 \'a0 //
+\f1 \'c5\'d0\'b6\'c1\'c4\'c7\'ca\'c7\'b7\'f1\'b0\'fc\'ba\'ac
+\f0 \
+\'a0 \'a0 \'a0 \'a0 BOOL found1 = ([number rangeOfString:@"cde"].location !=NSNotFound);\
+\'a0 \'a0 \'a0 \'a0 NSLog(@"found1 = %lu",found1);\
+\'a0 \'a0 \'a0 \'a0 //
+\f1 \'d7\'e9\'ba\'cf\'d7\'d6\'b7\'fb\'b4\'ae
+\f0 \
+\'a0 \'a0 \'a0 \'a0 NSString *myString9 = [myString1 stringByAppendingString:myString7];\
+\'a0 \'a0 \'a0 \'a0 NSLog(@"myString9 = %@,myString1 = %@,myString7 = %@",myString9,myString1,myString7);\
+\'a0\'a0 \'a0 \'a0 \'a0\
+\'a0 \'a0 \'a0 \'a0 NSString *myString10 = [myString1 stringByAppendingFormat:myString7];\
+\'a0\'a0 \'a0 \'a0 \'a0 NSLog(@"myString10 = %@,myString1 = %@,myString7 = %@",myString10,myString1,myString7);\
+\'a0\'a0 \'a0 \'a0 \'a0\
+\'a0 \'a0 \'a0 \'a0 //
+\f1 \'bd\'ab\'ce\'c4\'bc\'fe\'c4\'da\'c8\'dd\'d0\'b4\'c8\'eb\'b5\'bd\'d7\'d6\'b7\'fb\'b4\'ae\'d6\'d0
+\f0 \
+\'a0 \'a0 \'a0 \'a0 NSString *fileContents = [NSString stringWithContentsOfFile:@"123.text"];\
+\'a0 \'a0 \'a0 \'a0 //
+\f1 \'bb\'f1\'c8\'a1\'ce\'c4\'bc\'fe\'c0\'a9\'d5\'b9\'c3\'fb
+\f0 \
+\'a0 \'a0 \'a0 \'a0 NSString *filename = @"11111.txt";\
+\'a0 \'a0 \'a0 \'a0 NSString *fileExtension = [filename pathExtension];\
+\'a0 \'a0 \'a0 \'a0 NSLog(@"fileExtension = %@",fileExtension);\
+\'a0\'a0 \'a0 \'a0 \'a0\
+\'a0 \'a0 \'a0 \'a0 //
+\f1 \'bd\'ab
+\f0 URL
+\f1 \'c4\'da\'c8\'dd\'d0\'b4\'c8\'eb\'d7\'d6\'b7\'fb\'b4\'ae
+\f0 ,
+\f1 \'d3\'d0\'b5\'e3\'ce\'ca\'cc\'e2
+\f0 \
+\'a0 \'a0 \'a0 \'a0 NSURL *url = [NSURLURLWithString:@"{\field{\*\fldinst{HYPERLINK "http://www.baidu.com/"}}{\fldrslt \cf2 \ul \ulc2 http://www.baidu.com}}"];\
+\'a0 \'a0 \'a0 \'a0 \'a0 NSLog(@"url = %@",url);\
+\'a0 \'a0 \'a0 \'a0 NSString *pageContents\'a0 = [NSString stringWithContentsOfURL:url];\
+\'a0 \'a0 \'a0 \'a0 //NSLog(@"pageContents = %@",pageContents);\
+}

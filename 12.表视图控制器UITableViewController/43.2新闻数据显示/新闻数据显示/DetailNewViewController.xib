@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailNewViewController">
+            <connections>
+                <outlet property="detaliTitle" destination="O8M-fW-tgM" id="2Gk-fC-yTg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" id="ETg-Ln-NAb">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="O8M-fW-tgM">
+                            <rect key="frame" x="0.0" y="0.0" width="304" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="n1" id="iYx-NN-Xhc">
+                            <rect key="frame" x="0.0" y="22" width="320" height="200"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="698-HR-fjW">
+                            <rect key="frame" x="0.0" y="222" width="320" height="568"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <mutableString key="text">今天雷霆明显加强了对库里的防守，在库里和队友挡拆的时候，雷霆轮转换位非常及时。凯文-杜兰特、塞吉-伊巴卡、拉塞尔-韦斯特布鲁克、史蒂文-亚当斯等人都防守过库里，他们要么直接换防，要么提上延误库里，给队友争取补位时间。
+    第一节进行到10分19秒，库里外线出手三分，被亚当斯盖掉，这是库里职业生涯第一次在季后赛被对手盖掉三分。在其后的比赛中，库里在三分线外也有过精彩比赛，一次在右侧底角面对伊内斯-坎特的贴身防守，利用坎特贸然出手抢断的瞬间机会，出手投中三分。
+    更多的时候，库里今天的进攻打得不好，甚至给人进攻不合理的感觉。在第二节结束之前，勇士的进攻和防守都乱了方寸，雷霆逐渐扩大分差。库里这个时候显得有些着急，他开始在外线进行强投，突破到内线的抛投也显得有些随意，没有想过给队友创造投篮机会。
+    
+    库里这些出手也无可厚非，毕竟他是全票当选常规赛MVP的球员，他在勇士拥有无限开火权。易言之，在这支勇士队中，只有库里没有投中的球，没有他出手不合理的球，毕竟他是现在联盟最好的球员，有能力在外线不断得分。只是不幸的是，库里今天手感不好。
+    
+    在库里进攻被限制的同时，他的组织也被限制。雷霆今天防守库里的时候，防守战术变化多样，除了轮转换位之外，还对库里进行包夹，封堵他的传球路线，破坏勇士的整体进攻战术。库里面对这种防守战术变化，今天没有及时做出调整。
+    
+    勇士今天输掉28分，是史蒂夫-科尔时代球队遭遇的最大惨败，库里能从这场惨败中恢复过来吗？勇士本赛季常规赛横扫雷霆，库里打得非常出色，他曾经用超远三分绝杀雷霆。但西部决赛打到现在，雷霆显然已经不是常规赛那支雷霆，库里面临前所未有的挑战。（童心）
+    
+    版权声明：本文系腾讯体育独家稿件，未经授权，不得转载，否则将追究法律责任。</mutableString>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <inset key="contentInset" minX="0.0" minY="0.0" maxX="568" maxY="1000"/>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="80" y="78"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="n1" width="550" height="394"/>
+    </resources>
+</document>

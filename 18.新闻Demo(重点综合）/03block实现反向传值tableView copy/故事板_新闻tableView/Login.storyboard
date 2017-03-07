@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="L3a-et-0Ry">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--My View Controller-->
+        <scene sceneID="AdF-TJ-Bp7">
+            <objects>
+                <viewController id="L3a-et-0Ry" customClass="MyViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rsh-8w-5Mx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="efY-Zg-1S2" kind="modal" identifier="goLoginVC" id="LM7-F3-7TE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Xv-Xl-Bcj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-313" y="121"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5GL-XO-e98">
+            <objects>
+                <navigationController id="efY-Zg-1S2" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="k32-bR-hOY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Dnm-IH-Af6" kind="relationship" relationship="rootViewController" id="6JG-Zr-mM9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a7l-vR-Afu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="276" y="128"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GMz-Aj-rQJ">
+            <objects>
+                <navigationController id="yV2-C8-0NP" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hde-Ag-CVa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vGW-X0-FPp" kind="relationship" relationship="rootViewController" id="vpT-Kt-R6O"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fFQ-fJ-Mwq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="276" y="811"/>
+        </scene>
+        <!--注册用户信息-->
+        <scene sceneID="Md6-RV-95r">
+            <objects>
+                <viewController id="vGW-X0-FPp" customClass="RegisterViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="utT-WA-cAU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome2" id="hB6-RJ-F2a">
+                                <rect key="frame" x="0.0" y="63" width="320" height="505"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" id="KUb-za-dtW">
+                                <rect key="frame" x="0.0" y="63" width="320" height="505"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="bO2-Ef-hgf">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="505"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入用户名" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" id="PIi-Nz-rov">
+                                            <rect key="frame" x="0.0" y="18" width="320" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入密码" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" id="4dk-Qb-ce3">
+                                            <rect key="frame" x="0.0" y="66" width="320" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                            <connections>
+                                                <action selector="closeKeyboard:" destination="vGW-X0-FPp" eventType="editingDidEndOnExit" id="Df2-9f-2AJ"/>
+                                            </connections>
+                                        </textField>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="n49-Vz-HLG">
+                                            <rect key="frame" x="116" y="133" width="89" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="Menlo-Italic" family="Menlo" pointSize="27"/>
+                                            <state key="normal" title="注册"/>
+                                            <connections>
+                                                <action selector="SaveRegisterData:" destination="vGW-X0-FPp" eventType="touchUpInside" id="0VQ-ga-Y9P"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="extraLight"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="注册用户信息" id="3pk-3C-TwZ">
+                        <barButtonItem key="leftBarButtonItem" title="取消" style="done" id="Upy-l6-LU4">
+                            <connections>
+                                <action selector="cancleRegister:" destination="vGW-X0-FPp" id="zBn-q5-WuG"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="registerNameField" destination="PIi-Nz-rov" id="0dJ-pj-6hB"/>
+                        <outlet property="registerPwdField" destination="4dk-Qb-ce3" id="BK2-se-M5g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MXu-TP-Z76" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="716" y="811"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="2Hw-4M-Smv">
+            <objects>
+                <viewController id="Dnm-IH-Af6" customClass="LoginViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="llc-6o-Jpx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome2" id="hCe-z3-0xr">
+                                <rect key="frame" x="0.0" y="63" width="320" height="505"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" id="ZPI-wr-eJL">
+                                <rect key="frame" x="0.0" y="64" width="320" height="505"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Qbm-Xi-Tyw">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="505"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="head" id="scb-1J-kJM">
+                                            <rect key="frame" x="93" y="34" width="134" height="116"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" id="xjk-K7-OTe">
+                                            <rect key="frame" x="53" y="171" width="259" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" id="U7d-jl-rZ1">
+                                            <rect key="frame" x="53" y="205" width="259" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                            <connections>
+                                                <action selector="closeKeyboard:" destination="Dnm-IH-Af6" eventType="editingDidEndOnExit" id="arp-wg-flz"/>
+                                            </connections>
+                                        </textField>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3jd-39-5vq">
+                                            <rect key="frame" x="109" y="292" width="102" height="36"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            <state key="normal" title="登录"/>
+                                            <connections>
+                                                <action selector="clcikToLogin:" destination="Dnm-IH-Af6" eventType="touchUpInside" id="aFZ-54-uCG"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ofZ-5O-gsE">
+                                            <rect key="frame" x="8" y="475" width="53" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <state key="normal" title="注册"/>
+                                            <connections>
+                                                <segue destination="yV2-C8-0NP" kind="modal" identifier="registerSegue" id="VZm-pH-bNm"/>
+                                            </connections>
+                                        </button>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gender_neutral_user" id="RJX-f5-VLl">
+                                            <rect key="frame" x="8" y="171" width="37" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="key" id="CWN-xe-8VM">
+                                            <rect key="frame" x="8" y="205" width="37" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vRS-xI-MAA">
+                                            <rect key="frame" x="8" y="201" width="304" height="1"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0KP-r5-5eq">
+                                            <rect key="frame" x="10" y="238" width="304" height="1"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vmw-85-Ysg">
+                                            <rect key="frame" x="217" y="469" width="90" height="34"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <state key="normal" title="用户协议"/>
+                                            <connections>
+                                                <segue destination="qz4-f6-hmk" kind="push" identifier="userAllowedProtocal" id="Ptx-YS-LGV"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="extraLight"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Taz-fS-IOE"/>
+                    <connections>
+                        <outlet property="nameFIeld" destination="xjk-K7-OTe" id="daF-IG-tfd"/>
+                        <outlet property="passField" destination="U7d-jl-rZ1" id="Q4o-CV-UEj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="81g-jx-PcJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="716" y="121"/>
+        </scene>
+        <!--用户许可协议-->
+        <scene sceneID="5I2-Qf-GLX">
+            <objects>
+                <viewController id="qz4-f6-hmk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="k4f-d1-DsG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="justified" id="8Zy-jx-aVt">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">用户许可协议
+
+一、软件使用协议
+  本协议是用户 (自然人、法人或社会团体)与XXXX公司之间关于“XXXX”软件产品（以下
+
+简称“本软件产品”）的法律协议。一旦安装、复制或以其他方式使用本软件产品，即表示同意接受协议各项条件的约束。如果用户
+
+不同意协议的条件，请不要使用本软件产品。
+
+二、软件产品保护条款
+  1）本软件产品之著作权及其它知识产权等相关权利或利益（包括但不限于现已取得或未来可取得之著作权、专利权、商标权、
+
+营业秘密等）皆为XXXX公司所有。本软件产品受中华人民共和国版权法及国际版权条约和其他知识产权法及条约的保护
+
+。用户仅获得本软件产品的非排他性使用权。
+  2）用户不得：删除本软件及其他副本上一切关于版权的信息；对本软件进行反向工程，如反汇编、反编译等； 
+  3）本软件产品以现状方式提供，XXXX公司不保证本软件产品能够或不能够完全满足用户需求，在用户手册、帮助
+
+文件、使用说明书等软件文档中的介绍性内容仅供用户参考，不得理解为对用户所做的任何承诺。XXXX有限公司保留对软件
+
+版本进行升级，对功能、内容、结构、界面、运行方式等进行修改或自动更新的权利。
+  4）为了更好地服务于用户，或为了向用户提供具有个性的信息内容的需要，本软件产品可能会收集、传播某些信息，但XXXX公司承诺不向未经授权的第三方提供此类信息，以保护用户隐私。
+  5）使用本软件产品由用户自己承担风险，在适用法律允许的最大范围内，XXXX公司在任何情况下不就因使用或不
+
+能使用本软件产品所发生的特殊的、意外的、非直接或间接的损失承担赔偿责任。即使已事先被告知该损害发生的可能性。 
+  6）XXXX公司定义的信息内容包括：文字、软件、声音；本公司为用户提供的商业信息，所有这些内容受版权、商
+
+标权、和其它知识产权和所有权法律的保护。所以，用户只能在本公司授权下才能使用这些内容，而不能擅自复制、修改、编撰这些
+
+内容、或创造与内容有关的衍生产品。
+  7）如果您未遵守本协议的任何一项条款，XXXX公司有权立即终止本协议，并保留通过法律手段追究责任。
+
+三、XXXX公司具有对以上各项条款内容的最终解释权和修改权。如用户对XXXX公司的解释或修改有异议，
+
+应当立即停止使用本软件产品。用户继续使用本软件产品的行为将被视为对XXXX公司的解释或修改的接受。
+
+四、因本协议所发生的纠纷，双方同意按照中华人民共和国法律，由XXXX公司所在地的有管辖权的法院管辖。
+
+XXXX公司</string>
+                                <color key="textColor" red="0.071833030219090599" green="0.039573641633116816" blue="0.22764423076923079" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="用户许可协议" id="51N-x8-2bc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="drW-wb-3Id" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1121" y="121"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gender_neutral_user" width="32" height="32"/>
+        <image name="head" width="200" height="200"/>
+        <image name="key" width="32" height="32"/>
+        <image name="welcome2" width="640" height="1136"/>
+    </resources>
+</document>

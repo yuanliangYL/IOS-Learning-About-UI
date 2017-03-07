@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A5079E1CC8D10800E79204 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5079D1CC8D10800E79204 /* main.m */; };
+		18A507A11CC8D10800E79204 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A507A01CC8D10800E79204 /* AppDelegate.m */; };
+		18A507A91CC8D10800E79204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A507A81CC8D10800E79204 /* Assets.xcassets */; };
+		18A507AC1CC8D10800E79204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A507AA1CC8D10800E79204 /* LaunchScreen.storyboard */; };
+		18A507B61CC8D21600E79204 /* SignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A507B41CC8D21600E79204 /* SignViewController.m */; };
+		18A507B71CC8D21600E79204 /* SignViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A507B51CC8D21600E79204 /* SignViewController.xib */; };
+		18A507BB1CC8D34500E79204 /* ChoseSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A507B91CC8D34500E79204 /* ChoseSignViewController.m */; };
+		18A507BC1CC8D34500E79204 /* ChoseSignViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A507BA1CC8D34500E79204 /* ChoseSignViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18A507991CC8D10800E79204 /* 25星座运程Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "25星座运程Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A5079D1CC8D10800E79204 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A5079F1CC8D10800E79204 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18A507A01CC8D10800E79204 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18A507A81CC8D10800E79204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A507AB1CC8D10800E79204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A507AD1CC8D10800E79204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A507B31CC8D21600E79204 /* SignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignViewController.h; sourceTree = "<group>"; };
+		18A507B41CC8D21600E79204 /* SignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignViewController.m; sourceTree = "<group>"; };
+		18A507B51CC8D21600E79204 /* SignViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignViewController.xib; sourceTree = "<group>"; };
+		18A507B81CC8D34500E79204 /* ChoseSignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoseSignViewController.h; sourceTree = "<group>"; };
+		18A507B91CC8D34500E79204 /* ChoseSignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoseSignViewController.m; sourceTree = "<group>"; };
+		18A507BA1CC8D34500E79204 /* ChoseSignViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChoseSignViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A507961CC8D10800E79204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A507901CC8D10800E79204 = {
+			isa = PBXGroup;
+			children = (
+				18A5079B1CC8D10800E79204 /* 25星座运程Demo */,
+				18A5079A1CC8D10800E79204 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A5079A1CC8D10800E79204 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A507991CC8D10800E79204 /* 25星座运程Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A5079B1CC8D10800E79204 /* 25星座运程Demo */ = {
+			isa = PBXGroup;
+			children = (
+				18A5079F1CC8D10800E79204 /* AppDelegate.h */,
+				18A507A01CC8D10800E79204 /* AppDelegate.m */,
+				18A507B31CC8D21600E79204 /* SignViewController.h */,
+				18A507B41CC8D21600E79204 /* SignViewController.m */,
+				18A507B51CC8D21600E79204 /* SignViewController.xib */,
+				18A507B81CC8D34500E79204 /* ChoseSignViewController.h */,
+				18A507B91CC8D34500E79204 /* ChoseSignViewController.m */,
+				18A507BA1CC8D34500E79204 /* ChoseSignViewController.xib */,
+				18A507A81CC8D10800E79204 /* Assets.xcassets */,
+				18A507AA1CC8D10800E79204 /* LaunchScreen.storyboard */,
+				18A507AD1CC8D10800E79204 /* Info.plist */,
+				18A5079C1CC8D10800E79204 /* Supporting Files */,
+			);
+			path = "25星座运程Demo";
+			sourceTree = "<group>";
+		};
+		18A5079C1CC8D10800E79204 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A5079D1CC8D10800E79204 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A507981CC8D10800E79204 /* 25星座运程Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A507B01CC8D10800E79204 /* Build configuration list for PBXNativeTarget "25星座运程Demo" */;
+			buildPhases = (
+				18A507951CC8D10800E79204 /* Sources */,
+				18A507961CC8D10800E79204 /* Frameworks */,
+				18A507971CC8D10800E79204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "25星座运程Demo";
+			productName = "25星座运程Demo";
+			productReference = 18A507991CC8D10800E79204 /* 25星座运程Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A507911CC8D10800E79204 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tarena;
+				TargetAttributes = {
+					18A507981CC8D10800E79204 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 18A507941CC8D10800E79204 /* Build configuration list for PBXProject "25星座运程Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A507901CC8D10800E79204;
+			productRefGroup = 18A5079A1CC8D10800E79204 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A507981CC8D10800E79204 /* 25星座运程Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A507971CC8D10800E79204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A507AC1CC8D10800E79204 /* LaunchScreen.storyboard in Resources */,
+				18A507B71CC8D21600E79204 /* SignViewController.xib in Resources */,
+				18A507BC1CC8D34500E79204 /* ChoseSignViewController.xib in Resources */,
+				18A507A91CC8D10800E79204 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A507951CC8D10800E79204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A507A11CC8D10800E79204 /* AppDelegate.m in Sources */,
+				18A507B61CC8D21600E79204 /* SignViewController.m in Sources */,
+				18A507BB1CC8D34500E79204 /* ChoseSignViewController.m in Sources */,
+				18A5079E1CC8D10800E79204 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18A507AA1CC8D10800E79204 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A507AB1CC8D10800E79204 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A507AE1CC8D10800E79204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18A507AF1CC8D10800E79204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A507B11CC8D10800E79204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "25星座运程Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.tarena.-5----Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18A507B21CC8D10800E79204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "25星座运程Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.tarena.-5----Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A507941CC8D10800E79204 /* Build configuration list for PBXProject "25星座运程Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A507AE1CC8D10800E79204 /* Debug */,
+				18A507AF1CC8D10800E79204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A507B01CC8D10800E79204 /* Build configuration list for PBXNativeTarget "25星座运程Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A507B11CC8D10800E79204 /* Debug */,
+				18A507B21CC8D10800E79204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A507911CC8D10800E79204 /* Project object */;
+}

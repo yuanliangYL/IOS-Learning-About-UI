@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F1AC2C1CEEF5430077D1AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1AC2B1CEEF5430077D1AF /* main.m */; };
+		18F1AC2F1CEEF5430077D1AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1AC2E1CEEF5430077D1AF /* AppDelegate.m */; };
+		18F1AC371CEEF5430077D1AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F1AC361CEEF5430077D1AF /* Assets.xcassets */; };
+		18F1AC3A1CEEF5430077D1AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F1AC381CEEF5430077D1AF /* LaunchScreen.storyboard */; };
+		18F1AC431CEEF55C0077D1AF /* CityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1AC421CEEF55C0077D1AF /* CityTableViewController.m */; };
+		18F1AC471CEEF5740077D1AF /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1AC451CEEF5740077D1AF /* AddViewController.m */; };
+		18F1AC481CEEF5740077D1AF /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F1AC461CEEF5740077D1AF /* AddViewController.xib */; };
+		18F1AC531CEEF85D0077D1AF /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1AC501CEEF85D0077D1AF /* City.m */; };
+		18F1AC541CEEF85D0077D1AF /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1AC521CEEF85D0077D1AF /* Data.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18F1AC271CEEF5430077D1AF /* 委托添加数据.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "委托添加数据.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F1AC2B1CEEF5430077D1AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F1AC2D1CEEF5430077D1AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18F1AC2E1CEEF5430077D1AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18F1AC361CEEF5430077D1AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F1AC391CEEF5430077D1AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F1AC3B1CEEF5430077D1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F1AC411CEEF55C0077D1AF /* CityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CityTableViewController.h; path = ../CityTableViewController.h; sourceTree = "<group>"; };
+		18F1AC421CEEF55C0077D1AF /* CityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CityTableViewController.m; path = ../CityTableViewController.m; sourceTree = "<group>"; };
+		18F1AC441CEEF5740077D1AF /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		18F1AC451CEEF5740077D1AF /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		18F1AC461CEEF5740077D1AF /* AddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
+		18F1AC4F1CEEF85D0077D1AF /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		18F1AC501CEEF85D0077D1AF /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		18F1AC511CEEF85D0077D1AF /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		18F1AC521CEEF85D0077D1AF /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F1AC241CEEF5430077D1AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F1AC1E1CEEF5430077D1AF = {
+			isa = PBXGroup;
+			children = (
+				18F1AC291CEEF5430077D1AF /* 委托添加数据 */,
+				18F1AC281CEEF5430077D1AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F1AC281CEEF5430077D1AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F1AC271CEEF5430077D1AF /* 委托添加数据.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F1AC291CEEF5430077D1AF /* 委托添加数据 */ = {
+			isa = PBXGroup;
+			children = (
+				18F1AC2D1CEEF5430077D1AF /* AppDelegate.h */,
+				18F1AC2E1CEEF5430077D1AF /* AppDelegate.m */,
+				18F1AC361CEEF5430077D1AF /* Assets.xcassets */,
+				18F1AC381CEEF5430077D1AF /* LaunchScreen.storyboard */,
+				18F1AC3B1CEEF5430077D1AF /* Info.plist */,
+				18F1AC4F1CEEF85D0077D1AF /* City.h */,
+				18F1AC501CEEF85D0077D1AF /* City.m */,
+				18F1AC511CEEF85D0077D1AF /* Data.h */,
+				18F1AC521CEEF85D0077D1AF /* Data.m */,
+				18F1AC411CEEF55C0077D1AF /* CityTableViewController.h */,
+				18F1AC421CEEF55C0077D1AF /* CityTableViewController.m */,
+				18F1AC441CEEF5740077D1AF /* AddViewController.h */,
+				18F1AC451CEEF5740077D1AF /* AddViewController.m */,
+				18F1AC461CEEF5740077D1AF /* AddViewController.xib */,
+				18F1AC2A1CEEF5430077D1AF /* Supporting Files */,
+			);
+			path = "委托添加数据";
+			sourceTree = "<group>";
+		};
+		18F1AC2A1CEEF5430077D1AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18F1AC2B1CEEF5430077D1AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F1AC261CEEF5430077D1AF /* 委托添加数据 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F1AC3E1CEEF5430077D1AF /* Build configuration list for PBXNativeTarget "委托添加数据" */;
+			buildPhases = (
+				18F1AC231CEEF5430077D1AF /* Sources */,
+				18F1AC241CEEF5430077D1AF /* Frameworks */,
+				18F1AC251CEEF5430077D1AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "委托添加数据";
+			productName = "委托添加数据";
+			productReference = 18F1AC271CEEF5430077D1AF /* 委托添加数据.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F1AC1F1CEEF5430077D1AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tarena;
+				TargetAttributes = {
+					18F1AC261CEEF5430077D1AF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 18F1AC221CEEF5430077D1AF /* Build configuration list for PBXProject "委托添加数据" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F1AC1E1CEEF5430077D1AF;
+			productRefGroup = 18F1AC281CEEF5430077D1AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F1AC261CEEF5430077D1AF /* 委托添加数据 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F1AC251CEEF5430077D1AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F1AC481CEEF5740077D1AF /* AddViewController.xib in Resources */,
+				18F1AC3A1CEEF5430077D1AF /* LaunchScreen.storyboard in Resources */,
+				18F1AC371CEEF5430077D1AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F1AC231CEEF5430077D1AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F1AC531CEEF85D0077D1AF /* City.m in Sources */,
+				18F1AC431CEEF55C0077D1AF /* CityTableViewController.m in Sources */,
+				18F1AC2F1CEEF5430077D1AF /* AppDelegate.m in Sources */,
+				18F1AC471CEEF5740077D1AF /* AddViewController.m in Sources */,
+				18F1AC2C1CEEF5430077D1AF /* main.m in Sources */,
+				18F1AC541CEEF85D0077D1AF /* Data.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18F1AC381CEEF5430077D1AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F1AC391CEEF5430077D1AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F1AC3C1CEEF5430077D1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18F1AC3D1CEEF5430077D1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F1AC3F1CEEF5430077D1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "委托添加数据/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.tarena.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18F1AC401CEEF5430077D1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "委托添加数据/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.tarena.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F1AC221CEEF5430077D1AF /* Build configuration list for PBXProject "委托添加数据" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F1AC3C1CEEF5430077D1AF /* Debug */,
+				18F1AC3D1CEEF5430077D1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F1AC3E1CEEF5430077D1AF /* Build configuration list for PBXNativeTarget "委托添加数据" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F1AC3F1CEEF5430077D1AF /* Debug */,
+				18F1AC401CEEF5430077D1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F1AC1F1CEEF5430077D1AF /* Project object */;
+}

@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18DC0D131CFF204800DB0494 /* LongPressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC0D111CFF204800DB0494 /* LongPressViewController.m */; };
+		18DC0D141CFF204800DB0494 /* LongPressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DC0D121CFF204800DB0494 /* LongPressViewController.xib */; };
+		18EB5CE21CFEB909009AC23D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB5CE11CFEB909009AC23D /* main.m */; };
+		18EB5CE51CFEB909009AC23D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB5CE41CFEB909009AC23D /* AppDelegate.m */; };
+		18EB5CED1CFEB909009AC23D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EB5CEC1CFEB909009AC23D /* Assets.xcassets */; };
+		18EB5CF01CFEB909009AC23D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EB5CEE1CFEB909009AC23D /* LaunchScreen.storyboard */; };
+		18EB5CFD1CFEB957009AC23D /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB5CFB1CFEB957009AC23D /* TapViewController.m */; };
+		18EB5CFE1CFEB957009AC23D /* TapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EB5CFC1CFEB957009AC23D /* TapViewController.xib */; };
+		18EB5D021CFEBA1F009AC23D /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB5D001CFEBA1F009AC23D /* RotationViewController.m */; };
+		18EB5D031CFEBA1F009AC23D /* RotationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EB5D011CFEBA1F009AC23D /* RotationViewController.xib */; };
+		18EB5D071CFEBB17009AC23D /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB5D051CFEBB17009AC23D /* PinchViewController.m */; };
+		18EB5D081CFEBB17009AC23D /* PinchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EB5D061CFEBB17009AC23D /* PinchViewController.xib */; };
+		18EB5D0C1CFEBD39009AC23D /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB5D0A1CFEBD39009AC23D /* SwipeViewController.m */; };
+		18EB5D0D1CFEBD39009AC23D /* SwipeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EB5D0B1CFEBD39009AC23D /* SwipeViewController.xib */; };
+		18EB5D111CFEBE9A009AC23D /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB5D0F1CFEBE9A009AC23D /* PanViewController.m */; };
+		18EB5D121CFEBE9A009AC23D /* PanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EB5D101CFEBE9A009AC23D /* PanViewController.xib */; };
+		18EB5D161CFEC06B009AC23D /* ScreenEdgePanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB5D141CFEC06B009AC23D /* ScreenEdgePanViewController.m */; };
+		18EB5D171CFEC06B009AC23D /* ScreenEdgePanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EB5D151CFEC06B009AC23D /* ScreenEdgePanViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18DC0D101CFF204800DB0494 /* LongPressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongPressViewController.h; sourceTree = "<group>"; };
+		18DC0D111CFF204800DB0494 /* LongPressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongPressViewController.m; sourceTree = "<group>"; };
+		18DC0D121CFF204800DB0494 /* LongPressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LongPressViewController.xib; sourceTree = "<group>"; };
+		18EB5CDD1CFEB909009AC23D /* IB-touches手势操作.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IB-touches手势操作.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EB5CE11CFEB909009AC23D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18EB5CE31CFEB909009AC23D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18EB5CE41CFEB909009AC23D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18EB5CEC1CFEB909009AC23D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EB5CEF1CFEB909009AC23D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18EB5CF11CFEB909009AC23D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EB5CFA1CFEB957009AC23D /* TapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapViewController.h; sourceTree = "<group>"; };
+		18EB5CFB1CFEB957009AC23D /* TapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
+		18EB5CFC1CFEB957009AC23D /* TapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TapViewController.xib; sourceTree = "<group>"; };
+		18EB5CFF1CFEBA1F009AC23D /* RotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		18EB5D001CFEBA1F009AC23D /* RotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
+		18EB5D011CFEBA1F009AC23D /* RotationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RotationViewController.xib; sourceTree = "<group>"; };
+		18EB5D041CFEBB17009AC23D /* PinchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchViewController.h; sourceTree = "<group>"; };
+		18EB5D051CFEBB17009AC23D /* PinchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
+		18EB5D061CFEBB17009AC23D /* PinchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PinchViewController.xib; sourceTree = "<group>"; };
+		18EB5D091CFEBD39009AC23D /* SwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
+		18EB5D0A1CFEBD39009AC23D /* SwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
+		18EB5D0B1CFEBD39009AC23D /* SwipeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwipeViewController.xib; sourceTree = "<group>"; };
+		18EB5D0E1CFEBE9A009AC23D /* PanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanViewController.h; sourceTree = "<group>"; };
+		18EB5D0F1CFEBE9A009AC23D /* PanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanViewController.m; sourceTree = "<group>"; };
+		18EB5D101CFEBE9A009AC23D /* PanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PanViewController.xib; sourceTree = "<group>"; };
+		18EB5D131CFEC06B009AC23D /* ScreenEdgePanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenEdgePanViewController.h; sourceTree = "<group>"; };
+		18EB5D141CFEC06B009AC23D /* ScreenEdgePanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenEdgePanViewController.m; sourceTree = "<group>"; };
+		18EB5D151CFEC06B009AC23D /* ScreenEdgePanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScreenEdgePanViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EB5CDA1CFEB909009AC23D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EB5CD41CFEB909009AC23D = {
+			isa = PBXGroup;
+			children = (
+				18EB5CDF1CFEB909009AC23D /* IB-touches手势操作 */,
+				18EB5CDE1CFEB909009AC23D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18EB5CDE1CFEB909009AC23D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EB5CDD1CFEB909009AC23D /* IB-touches手势操作.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EB5CDF1CFEB909009AC23D /* IB-touches手势操作 */ = {
+			isa = PBXGroup;
+			children = (
+				18EB5CE31CFEB909009AC23D /* AppDelegate.h */,
+				18EB5CE41CFEB909009AC23D /* AppDelegate.m */,
+				18EB5CFA1CFEB957009AC23D /* TapViewController.h */,
+				18EB5CFB1CFEB957009AC23D /* TapViewController.m */,
+				18EB5CFC1CFEB957009AC23D /* TapViewController.xib */,
+				18EB5CFF1CFEBA1F009AC23D /* RotationViewController.h */,
+				18EB5D001CFEBA1F009AC23D /* RotationViewController.m */,
+				18EB5D011CFEBA1F009AC23D /* RotationViewController.xib */,
+				18EB5D041CFEBB17009AC23D /* PinchViewController.h */,
+				18EB5D051CFEBB17009AC23D /* PinchViewController.m */,
+				18EB5D061CFEBB17009AC23D /* PinchViewController.xib */,
+				18EB5D091CFEBD39009AC23D /* SwipeViewController.h */,
+				18EB5D0A1CFEBD39009AC23D /* SwipeViewController.m */,
+				18EB5D0B1CFEBD39009AC23D /* SwipeViewController.xib */,
+				18EB5D0E1CFEBE9A009AC23D /* PanViewController.h */,
+				18EB5D0F1CFEBE9A009AC23D /* PanViewController.m */,
+				18EB5D101CFEBE9A009AC23D /* PanViewController.xib */,
+				18EB5D131CFEC06B009AC23D /* ScreenEdgePanViewController.h */,
+				18EB5D141CFEC06B009AC23D /* ScreenEdgePanViewController.m */,
+				18EB5D151CFEC06B009AC23D /* ScreenEdgePanViewController.xib */,
+				18DC0D101CFF204800DB0494 /* LongPressViewController.h */,
+				18DC0D111CFF204800DB0494 /* LongPressViewController.m */,
+				18DC0D121CFF204800DB0494 /* LongPressViewController.xib */,
+				18EB5CEC1CFEB909009AC23D /* Assets.xcassets */,
+				18EB5CEE1CFEB909009AC23D /* LaunchScreen.storyboard */,
+				18EB5CF11CFEB909009AC23D /* Info.plist */,
+				18EB5CE01CFEB909009AC23D /* Supporting Files */,
+			);
+			path = "IB-touches手势操作";
+			sourceTree = "<group>";
+		};
+		18EB5CE01CFEB909009AC23D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18EB5CE11CFEB909009AC23D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18EB5CDC1CFEB909009AC23D /* IB-touches手势操作 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EB5CF41CFEB909009AC23D /* Build configuration list for PBXNativeTarget "IB-touches手势操作" */;
+			buildPhases = (
+				18EB5CD91CFEB909009AC23D /* Sources */,
+				18EB5CDA1CFEB909009AC23D /* Frameworks */,
+				18EB5CDB1CFEB909009AC23D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IB-touches手势操作";
+			productName = "IB-touches手势操作";
+			productReference = 18EB5CDD1CFEB909009AC23D /* IB-touches手势操作.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EB5CD51CFEB909009AC23D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tarena;
+				TargetAttributes = {
+					18EB5CDC1CFEB909009AC23D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 18EB5CD81CFEB909009AC23D /* Build configuration list for PBXProject "IB-touches手势操作" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18EB5CD41CFEB909009AC23D;
+			productRefGroup = 18EB5CDE1CFEB909009AC23D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EB5CDC1CFEB909009AC23D /* IB-touches手势操作 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EB5CDB1CFEB909009AC23D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EB5D121CFEBE9A009AC23D /* PanViewController.xib in Resources */,
+				18EB5CF01CFEB909009AC23D /* LaunchScreen.storyboard in Resources */,
+				18DC0D141CFF204800DB0494 /* LongPressViewController.xib in Resources */,
+				18EB5D081CFEBB17009AC23D /* PinchViewController.xib in Resources */,
+				18EB5D171CFEC06B009AC23D /* ScreenEdgePanViewController.xib in Resources */,
+				18EB5CFE1CFEB957009AC23D /* TapViewController.xib in Resources */,
+				18EB5D031CFEBA1F009AC23D /* RotationViewController.xib in Resources */,
+				18EB5CED1CFEB909009AC23D /* Assets.xcassets in Resources */,
+				18EB5D0D1CFEBD39009AC23D /* SwipeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EB5CD91CFEB909009AC23D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EB5CE51CFEB909009AC23D /* AppDelegate.m in Sources */,
+				18DC0D131CFF204800DB0494 /* LongPressViewController.m in Sources */,
+				18EB5CE21CFEB909009AC23D /* main.m in Sources */,
+				18EB5D111CFEBE9A009AC23D /* PanViewController.m in Sources */,
+				18EB5D161CFEC06B009AC23D /* ScreenEdgePanViewController.m in Sources */,
+				18EB5D071CFEBB17009AC23D /* PinchViewController.m in Sources */,
+				18EB5D0C1CFEBD39009AC23D /* SwipeViewController.m in Sources */,
+				18EB5D021CFEBA1F009AC23D /* RotationViewController.m in Sources */,
+				18EB5CFD1CFEB957009AC23D /* TapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18EB5CEE1CFEB909009AC23D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EB5CEF1CFEB909009AC23D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18EB5CF21CFEB909009AC23D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18EB5CF31CFEB909009AC23D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18EB5CF51CFEB909009AC23D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IB-touches手势操作/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.tarena.IB-touches----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18EB5CF61CFEB909009AC23D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IB-touches手势操作/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.tarena.IB-touches----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EB5CD81CFEB909009AC23D /* Build configuration list for PBXProject "IB-touches手势操作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EB5CF21CFEB909009AC23D /* Debug */,
+				18EB5CF31CFEB909009AC23D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EB5CF41CFEB909009AC23D /* Build configuration list for PBXNativeTarget "IB-touches手势操作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EB5CF51CFEB909009AC23D /* Debug */,
+				18EB5CF61CFEB909009AC23D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18EB5CD51CFEB909009AC23D /* Project object */;
+}

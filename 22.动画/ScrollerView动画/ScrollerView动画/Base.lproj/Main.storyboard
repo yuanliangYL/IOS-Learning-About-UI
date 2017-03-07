@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DKR-rh-qdk"/>
+                        <viewControllerLayoutGuide type="bottom" id="pvT-ho-I66"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7" translatesAutoresizingMaskIntoConstraints="NO" id="1Xu-Ig-4r6">
+                                <rect key="frame" x="0.0" y="170" width="320" height="398"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bcf-ef-wxP">
+                                <rect key="frame" x="0.0" y="170" width="600" height="430"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="dSh-NS-e7p">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="430"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Bcf-ef-wxP" firstAttribute="top" secondItem="DKR-rh-qdk" secondAttribute="bottom" constant="150" id="NMK-IW-Hih"/>
+                            <constraint firstAttribute="trailing" secondItem="Bcf-ef-wxP" secondAttribute="trailing" id="VG1-x3-m3K"/>
+                            <constraint firstItem="pvT-ho-I66" firstAttribute="top" secondItem="Bcf-ef-wxP" secondAttribute="bottom" id="q4Q-ky-uaW"/>
+                            <constraint firstItem="Bcf-ef-wxP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vkQ-Tt-RAs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="contentView" destination="Bcf-ef-wxP" id="v4M-Cp-fyE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="223.125" y="219.71830985915491"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="7" width="1364" height="762"/>
+    </resources>
+</document>

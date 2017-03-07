@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="这是一个标签的文字" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="68a-ea-x5S">
+                    <rect key="frame" x="8" y="19" width="304" height="38"/>
+                    <color key="backgroundColor" red="0.011762078851461411" green="0.011766544543206692" blue="0.011761489324271679" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" red="0.94856685400009155" green="0.099016271531581879" blue="0.93861156702041626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                    <color key="textColor" red="0.97602766752243042" green="0.058566011488437653" blue="0.13497638702392578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" red="0.062680326402187347" green="0.1070716455578804" blue="0.8731001615524292" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <size key="shadowOffset" width="2" height="-2"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="这是一个单行文本框，用于收集用户输入" textAlignment="center" minimumFontSize="17" background="hhh.png" disabledBackground="hhh.png" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="BjY-Sa-Dde">
+                    <rect key="frame" x="0.0" y="259" width="320" height="30"/>
+                    <color key="textColor" red="0.28132405877113342" green="0.0" blue="0.99961978197097778" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qtW-HG-Lj0">
+                    <rect key="frame" x="125" y="136" width="70" height="53"/>
+                    <color key="backgroundColor" red="0.93881291151046753" green="0.99976986646652222" blue="0.010853002779185772" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <inset key="contentEdgeInsets" minX="0.0" minY="-20" maxX="0.0" maxY="0.0"/>
+                    <inset key="titleEdgeInsets" minX="-73" minY="0.0" maxX="0.0" maxY="-53"/>
+                    <size key="titleShadowOffset" width="2" height="2"/>
+                    <state key="normal" title="按钮" image="bg.png"/>
+                    <state key="highlighted" title="KO"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="456" y="275"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg.png" width="69" height="30"/>
+        <image name="hhh.png" width="256" height="256"/>
+    </resources>
+</document>

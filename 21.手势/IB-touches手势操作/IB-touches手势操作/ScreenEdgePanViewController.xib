@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScreenEdgePanViewController">
+            <connections>
+                <outlet property="imageView" destination="j8I-JM-tVv" id="rBa-rD-1Z2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="566fbdd5489a4" id="j8I-JM-tVv">
+                    <rect key="frame" x="-178" y="117" width="240" height="319"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="boD-ac-sSO" appends="YES" id="OCL-6R-S97"/>
+                        <outletCollection property="gestureRecognizers" destination="JtT-dJ-2tH" appends="YES" id="zRs-2v-0l6"/>
+                    </connections>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="280" y="329"/>
+        </view>
+        <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="boD-ac-sSO">
+            <rectEdge key="edges" left="YES"/>
+            <connections>
+                <action selector="screenEdgePan:" destination="-1" id="GPg-5B-qwM"/>
+            </connections>
+        </screenEdgePanGestureRecognizer>
+        <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="JtT-dJ-2tH">
+            <connections>
+                <action selector="longPressToMoveImage:" destination="-1" id="dhf-mA-n7x"/>
+            </connections>
+        </pongPressGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="566fbdd5489a4" width="1920" height="1080"/>
+    </resources>
+</document>

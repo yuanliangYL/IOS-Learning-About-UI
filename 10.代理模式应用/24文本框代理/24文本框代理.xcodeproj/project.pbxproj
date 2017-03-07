@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A507551CC8B89700E79204 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A507541CC8B89700E79204 /* main.m */; };
+		18A507581CC8B89700E79204 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A507571CC8B89700E79204 /* AppDelegate.m */; };
+		18A507601CC8B89700E79204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A5075F1CC8B89700E79204 /* Assets.xcassets */; };
+		18A507631CC8B89700E79204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A507611CC8B89700E79204 /* LaunchScreen.storyboard */; };
+		18A5078E1CC8C31500E79204 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5078C1CC8C31500E79204 /* MyViewController.m */; };
+		18A5078F1CC8C31500E79204 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A5078D1CC8C31500E79204 /* MyViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18A507501CC8B89700E79204 /* 24文本框代理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "24文本框代理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A507541CC8B89700E79204 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A507561CC8B89700E79204 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18A507571CC8B89700E79204 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18A5075F1CC8B89700E79204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A507621CC8B89700E79204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A507641CC8B89700E79204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A5078B1CC8C31500E79204 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		18A5078C1CC8C31500E79204 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		18A5078D1CC8C31500E79204 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A5074D1CC8B89700E79204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A507471CC8B89600E79204 = {
+			isa = PBXGroup;
+			children = (
+				18A507521CC8B89700E79204 /* 24文本框代理 */,
+				18A507511CC8B89700E79204 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A507511CC8B89700E79204 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A507501CC8B89700E79204 /* 24文本框代理.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A507521CC8B89700E79204 /* 24文本框代理 */ = {
+			isa = PBXGroup;
+			children = (
+				18A507561CC8B89700E79204 /* AppDelegate.h */,
+				18A507571CC8B89700E79204 /* AppDelegate.m */,
+				18A5078B1CC8C31500E79204 /* MyViewController.h */,
+				18A5078C1CC8C31500E79204 /* MyViewController.m */,
+				18A5078D1CC8C31500E79204 /* MyViewController.xib */,
+				18A5075F1CC8B89700E79204 /* Assets.xcassets */,
+				18A507611CC8B89700E79204 /* LaunchScreen.storyboard */,
+				18A507641CC8B89700E79204 /* Info.plist */,
+				18A507531CC8B89700E79204 /* Supporting Files */,
+			);
+			path = "24文本框代理";
+			sourceTree = "<group>";
+		};
+		18A507531CC8B89700E79204 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A507541CC8B89700E79204 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A5074F1CC8B89700E79204 /* 24文本框代理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A507671CC8B89700E79204 /* Build configuration list for PBXNativeTarget "24文本框代理" */;
+			buildPhases = (
+				18A5074C1CC8B89700E79204 /* Sources */,
+				18A5074D1CC8B89700E79204 /* Frameworks */,
+				18A5074E1CC8B89700E79204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "24文本框代理";
+			productName = "24文本框代理";
+			productReference = 18A507501CC8B89700E79204 /* 24文本框代理.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A507481CC8B89600E79204 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tarena;
+				TargetAttributes = {
+					18A5074F1CC8B89700E79204 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 18A5074B1CC8B89600E79204 /* Build configuration list for PBXProject "24文本框代理" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A507471CC8B89600E79204;
+			productRefGroup = 18A507511CC8B89700E79204 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A5074F1CC8B89700E79204 /* 24文本框代理 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A5074E1CC8B89700E79204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A507631CC8B89700E79204 /* LaunchScreen.storyboard in Resources */,
+				18A507601CC8B89700E79204 /* Assets.xcassets in Resources */,
+				18A5078F1CC8C31500E79204 /* MyViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A5074C1CC8B89700E79204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A5078E1CC8C31500E79204 /* MyViewController.m in Sources */,
+				18A507581CC8B89700E79204 /* AppDelegate.m in Sources */,
+				18A507551CC8B89700E79204 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18A507611CC8B89700E79204 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A507621CC8B89700E79204 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A507651CC8B89700E79204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18A507661CC8B89700E79204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A507681CC8B89700E79204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "24文本框代理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.tarena.-4-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18A507691CC8B89700E79204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "24文本框代理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.tarena.-4-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A5074B1CC8B89600E79204 /* Build configuration list for PBXProject "24文本框代理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A507651CC8B89700E79204 /* Debug */,
+				18A507661CC8B89700E79204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A507671CC8B89700E79204 /* Build configuration list for PBXNativeTarget "24文本框代理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A507681CC8B89700E79204 /* Debug */,
+				18A507691CC8B89700E79204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A507481CC8B89600E79204 /* Project object */;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weibos>
+    <weibo weiboid="1">
+        <name>周杰伦</name>
+        <text>哎呦！不错哦！</text>
+        <img>a.jpg</img>
+        <time>刚刚</time>
+    </weibo>
+    <weibo weiboid="2">
+        <name>周杰</name>
+        <text>紫薇！等等我！</text>
+        <img>b.jpg</img>
+        <time>18分钟前</time>
+    </weibo>
+    <weibo weiboid="3">
+        <name>小燕子</name>
+        <text>皇阿玛！您还记得大明湖畔的夏雨荷吗？</text>
+        <img>c.jpg</img>
+        <time>2天前</time>
+    </weibo>
+</weibos>

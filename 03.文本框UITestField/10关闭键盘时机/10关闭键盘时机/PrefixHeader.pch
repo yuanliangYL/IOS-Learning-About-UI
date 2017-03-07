@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  10关闭键盘时机
+//
+//  Created by YuanLiang on 5/11/16.
+//  Copyright © 2016 Tarena. All rights reserved.
+//pch存放公用的宏
+//pch原理：pch里面的内容被项目里的所有文件公有
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188D2E781CF67D6B001089D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D2E771CF67D6B001089D4 /* main.m */; };
+		188D2E7B1CF67D6B001089D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D2E7A1CF67D6B001089D4 /* AppDelegate.m */; };
+		188D2E831CF67D6B001089D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188D2E821CF67D6B001089D4 /* Assets.xcassets */; };
+		188D2E861CF67D6B001089D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188D2E841CF67D6B001089D4 /* LaunchScreen.storyboard */; };
+		188D2E901CF6891D001089D4 /* PickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D2E8E1CF6891D001089D4 /* PickViewController.m */; };
+		188D2E911CF6891D001089D4 /* PickViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188D2E8F1CF6891D001089D4 /* PickViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		188D2E731CF67D6B001089D4 /* 时间选择DatePickView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "时间选择DatePickView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		188D2E771CF67D6B001089D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188D2E791CF67D6B001089D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		188D2E7A1CF67D6B001089D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		188D2E821CF67D6B001089D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		188D2E851CF67D6B001089D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		188D2E871CF67D6B001089D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188D2E8D1CF6891D001089D4 /* PickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickViewController.h; sourceTree = "<group>"; };
+		188D2E8E1CF6891D001089D4 /* PickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickViewController.m; sourceTree = "<group>"; };
+		188D2E8F1CF6891D001089D4 /* PickViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188D2E701CF67D6B001089D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188D2E6A1CF67D6B001089D4 = {
+			isa = PBXGroup;
+			children = (
+				188D2E751CF67D6B001089D4 /* 时间选择DatePickView */,
+				188D2E741CF67D6B001089D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		188D2E741CF67D6B001089D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188D2E731CF67D6B001089D4 /* 时间选择DatePickView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188D2E751CF67D6B001089D4 /* 时间选择DatePickView */ = {
+			isa = PBXGroup;
+			children = (
+				188D2E791CF67D6B001089D4 /* AppDelegate.h */,
+				188D2E7A1CF67D6B001089D4 /* AppDelegate.m */,
+				188D2E8D1CF6891D001089D4 /* PickViewController.h */,
+				188D2E8E1CF6891D001089D4 /* PickViewController.m */,
+				188D2E8F1CF6891D001089D4 /* PickViewController.xib */,
+				188D2E821CF67D6B001089D4 /* Assets.xcassets */,
+				188D2E841CF67D6B001089D4 /* LaunchScreen.storyboard */,
+				188D2E871CF67D6B001089D4 /* Info.plist */,
+				188D2E761CF67D6B001089D4 /* Supporting Files */,
+			);
+			path = "时间选择DatePickView";
+			sourceTree = "<group>";
+		};
+		188D2E761CF67D6B001089D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				188D2E771CF67D6B001089D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188D2E721CF67D6B001089D4 /* 时间选择DatePickView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188D2E8A1CF67D6B001089D4 /* Build configuration list for PBXNativeTarget "时间选择DatePickView" */;
+			buildPhases = (
+				188D2E6F1CF67D6B001089D4 /* Sources */,
+				188D2E701CF67D6B001089D4 /* Frameworks */,
+				188D2E711CF67D6B001089D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "时间选择DatePickView";
+			productName = "时间选择DatePickView";
+			productReference = 188D2E731CF67D6B001089D4 /* 时间选择DatePickView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188D2E6B1CF67D6B001089D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tarena;
+				TargetAttributes = {
+					188D2E721CF67D6B001089D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 188D2E6E1CF67D6B001089D4 /* Build configuration list for PBXProject "时间选择DatePickView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 188D2E6A1CF67D6B001089D4;
+			productRefGroup = 188D2E741CF67D6B001089D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188D2E721CF67D6B001089D4 /* 时间选择DatePickView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188D2E711CF67D6B001089D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188D2E861CF67D6B001089D4 /* LaunchScreen.storyboard in Resources */,
+				188D2E911CF6891D001089D4 /* PickViewController.xib in Resources */,
+				188D2E831CF67D6B001089D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188D2E6F1CF67D6B001089D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188D2E7B1CF67D6B001089D4 /* AppDelegate.m in Sources */,
+				188D2E781CF67D6B001089D4 /* main.m in Sources */,
+				188D2E901CF6891D001089D4 /* PickViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		188D2E841CF67D6B001089D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188D2E851CF67D6B001089D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188D2E881CF67D6B001089D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		188D2E891CF67D6B001089D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188D2E8B1CF67D6B001089D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "时间选择DatePickView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.tarena.----DatePickView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		188D2E8C1CF67D6B001089D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "时间选择DatePickView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.tarena.----DatePickView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188D2E6E1CF67D6B001089D4 /* Build configuration list for PBXProject "时间选择DatePickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188D2E881CF67D6B001089D4 /* Debug */,
+				188D2E891CF67D6B001089D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188D2E8A1CF67D6B001089D4 /* Build configuration list for PBXNativeTarget "时间选择DatePickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188D2E8B1CF67D6B001089D4 /* Debug */,
+				188D2E8C1CF67D6B001089D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188D2E6B1CF67D6B001089D4 /* Project object */;
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SwipeViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1382491307stQkcb" id="A1S-g6-2Al">
+                    <rect key="frame" x="40" y="143" width="240" height="258"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="NXx-I4-efM" appends="YES" id="1Qk-zd-suU"/>
+                        <outletCollection property="gestureRecognizers" destination="3EZ-3g-6TA" appends="YES" id="5So-co-ZHI"/>
+                        <outletCollection property="gestureRecognizers" destination="HM1-pM-aXz" appends="YES" id="mcB-wu-EKf"/>
+                        <outletCollection property="gestureRecognizers" destination="V7r-Qp-OH9" appends="YES" id="D9H-dr-f6f"/>
+                    </connections>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="280" y="314"/>
+        </view>
+        <swipeGestureRecognizer direction="up" id="NXx-I4-efM">
+            <connections>
+                <action selector="SwipeTheImage:" destination="-1" id="WI1-qY-iTZ"/>
+            </connections>
+        </swipeGestureRecognizer>
+        <swipeGestureRecognizer direction="down" id="3EZ-3g-6TA">
+            <connections>
+                <action selector="SwipeTheImage:" destination="-1" id="RgD-Mg-saK"/>
+            </connections>
+        </swipeGestureRecognizer>
+        <swipeGestureRecognizer direction="left" id="HM1-pM-aXz">
+            <connections>
+                <action selector="SwipeTheImage:" destination="-1" id="h0b-ai-a6f"/>
+            </connections>
+        </swipeGestureRecognizer>
+        <swipeGestureRecognizer direction="right" id="V7r-Qp-OH9">
+            <connections>
+                <action selector="SwipeTheImage:" destination="-1" id="IQm-Rk-YEh"/>
+            </connections>
+        </swipeGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="1382491307stQkcb" width="1680" height="1050"/>
+    </resources>
+</document>

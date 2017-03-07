@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18EA22B91CBF9FF60082BF5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EA22B81CBF9FF60082BF5B /* main.m */; };
+		18EA22BC1CBF9FF60082BF5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EA22BB1CBF9FF60082BF5B /* AppDelegate.m */; };
+		18EA22C41CBF9FF60082BF5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EA22C31CBF9FF60082BF5B /* Assets.xcassets */; };
+		18EA22C71CBF9FF60082BF5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EA22C51CBF9FF60082BF5B /* LaunchScreen.storyboard */; };
+		18EA22D11CBFA00F0082BF5B /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EA22CF1CBFA00F0082BF5B /* MyViewController.m */; };
+		18EA22D21CBFA00F0082BF5B /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EA22D01CBFA00F0082BF5B /* MyViewController.xib */; };
+		18EA22DB1CBFA0670082BF5B /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18EA22D31CBFA0670082BF5B /* 01.jpg */; };
+		18EA22DC1CBFA0670082BF5B /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18EA22D41CBFA0670082BF5B /* 02.jpg */; };
+		18EA22DD1CBFA0670082BF5B /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18EA22D51CBFA0670082BF5B /* 03.jpg */; };
+		18EA22DE1CBFA0670082BF5B /* 04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18EA22D61CBFA0670082BF5B /* 04.jpg */; };
+		18EA22DF1CBFA0670082BF5B /* 05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18EA22D71CBFA0670082BF5B /* 05.jpg */; };
+		18EA22E01CBFA0670082BF5B /* 06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18EA22D81CBFA0670082BF5B /* 06.jpg */; };
+		18EA22E11CBFA0670082BF5B /* 07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18EA22D91CBFA0670082BF5B /* 07.jpg */; };
+		18EA22E21CBFA0670082BF5B /* backgroundImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18EA22DA1CBFA0670082BF5B /* backgroundImage.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18EA22B41CBF9FF60082BF5B /* 15相册显示模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "15相册显示模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EA22B81CBF9FF60082BF5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18EA22BA1CBF9FF60082BF5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18EA22BB1CBF9FF60082BF5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18EA22C31CBF9FF60082BF5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EA22C61CBF9FF60082BF5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18EA22C81CBF9FF60082BF5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EA22CE1CBFA00F0082BF5B /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		18EA22CF1CBFA00F0082BF5B /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		18EA22D01CBFA00F0082BF5B /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		18EA22D31CBFA0670082BF5B /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		18EA22D41CBFA0670082BF5B /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
+		18EA22D51CBFA0670082BF5B /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
+		18EA22D61CBFA0670082BF5B /* 04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04.jpg; sourceTree = "<group>"; };
+		18EA22D71CBFA0670082BF5B /* 05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 05.jpg; sourceTree = "<group>"; };
+		18EA22D81CBFA0670082BF5B /* 06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 06.jpg; sourceTree = "<group>"; };
+		18EA22D91CBFA0670082BF5B /* 07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 07.jpg; sourceTree = "<group>"; };
+		18EA22DA1CBFA0670082BF5B /* backgroundImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundImage.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EA22B11CBF9FF60082BF5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EA22AB1CBF9FF60082BF5B = {
+			isa = PBXGroup;
+			children = (
+				18EA22B61CBF9FF60082BF5B /* 15相册显示模式 */,
+				18EA22B51CBF9FF60082BF5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18EA22B51CBF9FF60082BF5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EA22B41CBF9FF60082BF5B /* 15相册显示模式.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EA22B61CBF9FF60082BF5B /* 15相册显示模式 */ = {
+			isa = PBXGroup;
+			children = (
+				18EA22BA1CBF9FF60082BF5B /* AppDelegate.h */,
+				18EA22BB1CBF9FF60082BF5B /* AppDelegate.m */,
+				18EA22CE1CBFA00F0082BF5B /* MyViewController.h */,
+				18EA22CF1CBFA00F0082BF5B /* MyViewController.m */,
+				18EA22D01CBFA00F0082BF5B /* MyViewController.xib */,
+				18EA22C31CBF9FF60082BF5B /* Assets.xcassets */,
+				18EA22C51CBF9FF60082BF5B /* LaunchScreen.storyboard */,
+				18EA22C81CBF9FF60082BF5B /* Info.plist */,
+				18EA22D31CBFA0670082BF5B /* 01.jpg */,
+				18EA22D41CBFA0670082BF5B /* 02.jpg */,
+				18EA22D51CBFA0670082BF5B /* 03.jpg */,
+				18EA22D61CBFA0670082BF5B /* 04.jpg */,
+				18EA22D71CBFA0670082BF5B /* 05.jpg */,
+				18EA22D81CBFA0670082BF5B /* 06.jpg */,
+				18EA22D91CBFA0670082BF5B /* 07.jpg */,
+				18EA22DA1CBFA0670082BF5B /* backgroundImage.jpg */,
+				18EA22B71CBF9FF60082BF5B /* Supporting Files */,
+			);
+			path = "15相册显示模式";
+			sourceTree = "<group>";
+		};
+		18EA22B71CBF9FF60082BF5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18EA22B81CBF9FF60082BF5B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18EA22B31CBF9FF60082BF5B /* 15相册显示模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EA22CB1CBF9FF60082BF5B /* Build configuration list for PBXNativeTarget "15相册显示模式" */;
+			buildPhases = (
+				18EA22B01CBF9FF60082BF5B /* Sources */,
+				18EA22B11CBF9FF60082BF5B /* Frameworks */,
+				18EA22B21CBF9FF60082BF5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "15相册显示模式";
+			productName = "15相册显示模式";
+			productReference = 18EA22B41CBF9FF60082BF5B /* 15相册显示模式.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EA22AC1CBF9FF60082BF5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tarena;
+				TargetAttributes = {
+					18EA22B31CBF9FF60082BF5B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 18EA22AF1CBF9FF60082BF5B /* Build configuration list for PBXProject "15相册显示模式" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18EA22AB1CBF9FF60082BF5B;
+			productRefGroup = 18EA22B51CBF9FF60082BF5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EA22B31CBF9FF60082BF5B /* 15相册显示模式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EA22B21CBF9FF60082BF5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EA22E11CBFA0670082BF5B /* 07.jpg in Resources */,
+				18EA22DD1CBFA0670082BF5B /* 03.jpg in Resources */,
+				18EA22DC1CBFA0670082BF5B /* 02.jpg in Resources */,
+				18EA22DF1CBFA0670082BF5B /* 05.jpg in Resources */,
+				18EA22E01CBFA0670082BF5B /* 06.jpg in Resources */,
+				18EA22E21CBFA0670082BF5B /* backgroundImage.jpg in Resources */,
+				18EA22C71CBF9FF60082BF5B /* LaunchScreen.storyboard in Resources */,
+				18EA22C41CBF9FF60082BF5B /* Assets.xcassets in Resources */,
+				18EA22DE1CBFA0670082BF5B /* 04.jpg in Resources */,
+				18EA22DB1CBFA0670082BF5B /* 01.jpg in Resources */,
+				18EA22D21CBFA00F0082BF5B /* MyViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EA22B01CBF9FF60082BF5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EA22D11CBFA00F0082BF5B /* MyViewController.m in Sources */,
+				18EA22BC1CBF9FF60082BF5B /* AppDelegate.m in Sources */,
+				18EA22B91CBF9FF60082BF5B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18EA22C51CBF9FF60082BF5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EA22C61CBF9FF60082BF5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18EA22C91CBF9FF60082BF5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18EA22CA1CBF9FF60082BF5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18EA22CC1CBF9FF60082BF5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "15相册显示模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.tarena.-5------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18EA22CD1CBF9FF60082BF5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "15相册显示模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.tarena.-5------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EA22AF1CBF9FF60082BF5B /* Build configuration list for PBXProject "15相册显示模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EA22C91CBF9FF60082BF5B /* Debug */,
+				18EA22CA1CBF9FF60082BF5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EA22CB1CBF9FF60082BF5B /* Build configuration list for PBXNativeTarget "15相册显示模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EA22CC1CBF9FF60082BF5B /* Debug */,
+				18EA22CD1CBF9FF60082BF5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18EA22AC1CBF9FF60082BF5B /* Project object */;
+}

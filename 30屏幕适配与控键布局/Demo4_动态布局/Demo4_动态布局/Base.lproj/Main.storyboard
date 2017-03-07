@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="HFe-lD-VfM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="7vQ-tD-31u">
+            <objects>
+                <navigationController id="HFe-lD-VfM" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="glX-UL-UH9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ZbW-VW-bZ2" kind="relationship" relationship="rootViewController" id="bA4-iH-6Lv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uuo-S9-4AN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-260" y="264"/>
+        </scene>
+        <!--音乐列表-->
+        <scene sceneID="X93-9f-BVA">
+            <objects>
+                <tableViewController id="ZbW-VW-bZ2" customClass="MusicTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="bzL-bl-uJ2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="musicCell" rowHeight="60" id="Egf-ZT-Qdh" customClass="MusicCell">
+                                <rect key="frame" x="0.0" y="92" width="320" height="60"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Egf-ZT-Qdh" id="Mkb-Mw-WZg">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="音乐名称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vHp-hO-ZHk">
+                                            <rect key="frame" x="10" y="8" width="249" height="24"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="03:15" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="93p-Nv-2t2">
+                                            <rect key="frame" x="269" y="19" width="41" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="B69-Kx-dw7"/>
+                                                <constraint firstAttribute="width" constant="41" id="fk3-MU-fFu"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="online_autosave_finish" translatesAutoresizingMaskIntoConstraints="NO" id="qk3-zD-XRZ">
+                                            <rect key="frame" x="10" y="38" width="17" height="17"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hq" translatesAutoresizingMaskIntoConstraints="NO" id="jT7-XV-xaw">
+                                            <rect key="frame" x="30" y="38" width="17" height="17"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="歌唱家 — 专辑名册" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dm4-hg-M5I">
+                                            <rect key="frame" x="50" y="32" width="209" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="s8w-4B-aNj"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="93p-Nv-2t2" firstAttribute="leading" secondItem="vHp-hO-ZHk" secondAttribute="trailing" constant="10" id="1a8-hg-WNM"/>
+                                        <constraint firstItem="vHp-hO-ZHk" firstAttribute="top" secondItem="Mkb-Mw-WZg" secondAttribute="top" constant="8" id="2JN-FW-BcJ"/>
+                                        <constraint firstItem="qk3-zD-XRZ" firstAttribute="leading" secondItem="Mkb-Mw-WZg" secondAttribute="leading" constant="10" id="5Tr-no-L5T"/>
+                                        <constraint firstAttribute="bottom" secondItem="qk3-zD-XRZ" secondAttribute="bottom" constant="4" id="9cA-lf-Ysu"/>
+                                        <constraint firstItem="vHp-hO-ZHk" firstAttribute="leading" secondItem="Mkb-Mw-WZg" secondAttribute="leading" constant="10" id="Ihz-hW-UI2"/>
+                                        <constraint firstItem="jT7-XV-xaw" firstAttribute="leading" secondItem="Mkb-Mw-WZg" secondAttribute="leading" constant="30" id="JtO-OX-b3y"/>
+                                        <constraint firstItem="Dm4-hg-M5I" firstAttribute="top" secondItem="vHp-hO-ZHk" secondAttribute="bottom" id="VBZ-s9-E7L"/>
+                                        <constraint firstItem="93p-Nv-2t2" firstAttribute="centerY" secondItem="Mkb-Mw-WZg" secondAttribute="centerY" id="czk-RB-bPr"/>
+                                        <constraint firstItem="93p-Nv-2t2" firstAttribute="leading" secondItem="Dm4-hg-M5I" secondAttribute="trailing" constant="10" id="dJc-rH-Wk6"/>
+                                        <constraint firstAttribute="bottom" secondItem="jT7-XV-xaw" secondAttribute="bottom" constant="4" id="pb6-1Z-aVH"/>
+                                        <constraint firstItem="Dm4-hg-M5I" firstAttribute="leading" secondItem="Mkb-Mw-WZg" secondAttribute="leading" constant="50" id="sW7-xL-UOm"/>
+                                        <constraint firstAttribute="trailing" secondItem="93p-Nv-2t2" secondAttribute="trailing" constant="10" id="tYM-az-bAE"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="artistLabel" destination="Dm4-hg-M5I" id="vGc-I6-y8x"/>
+                                    <outlet property="atristLeftConstaint" destination="sW7-xL-UOm" id="6My-A4-Fqo"/>
+                                    <outlet property="downloadedImageView" destination="qk3-zD-XRZ" id="xgr-Hn-cfg"/>
+                                    <outlet property="durationLabel" destination="93p-Nv-2t2" id="SeQ-TE-w4G"/>
+                                    <outlet property="hqImageView" destination="jT7-XV-xaw" id="qaP-KM-iMf"/>
+                                    <outlet property="hqLeftConstraint" destination="JtO-OX-b3y" id="Suy-Vc-wI9"/>
+                                    <outlet property="nameLabel" destination="vHp-hO-ZHk" id="5oH-a8-n5w"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ZbW-VW-bZ2" id="1Uh-lK-cHq"/>
+                            <outlet property="delegate" destination="ZbW-VW-bZ2" id="tZ5-SY-DUd"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="音乐列表" id="bzy-wt-X6b"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wsr-OM-qvd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="349" y="273"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="hq" width="17" height="17"/>
+        <image name="online_autosave_finish" width="17" height="17"/>
+    </resources>
+</document>

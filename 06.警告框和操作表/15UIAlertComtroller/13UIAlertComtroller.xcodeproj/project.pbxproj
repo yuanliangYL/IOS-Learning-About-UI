@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E75EC51CBF79090009ABFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E75EC41CBF79090009ABFD /* main.m */; };
+		18E75EC81CBF79090009ABFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E75EC71CBF79090009ABFD /* AppDelegate.m */; };
+		18E75ED01CBF79090009ABFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E75ECF1CBF79090009ABFD /* Assets.xcassets */; };
+		18E75ED31CBF79090009ABFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E75ED11CBF79090009ABFD /* LaunchScreen.storyboard */; };
+		18EA22E61CBFB7DC0082BF5B /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EA22E41CBFB7DC0082BF5B /* MyViewController.m */; };
+		18EA22E71CBFB7DC0082BF5B /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EA22E51CBFB7DC0082BF5B /* MyViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18E75EC01CBF79090009ABFD /* 13UIAlertComtroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 13UIAlertComtroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E75EC41CBF79090009ABFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E75EC61CBF79090009ABFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18E75EC71CBF79090009ABFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18E75ECF1CBF79090009ABFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E75ED21CBF79090009ABFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E75ED41CBF79090009ABFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EA22E31CBFB7DC0082BF5B /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		18EA22E41CBFB7DC0082BF5B /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		18EA22E51CBFB7DC0082BF5B /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E75EBD1CBF79090009ABFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E75EB71CBF79090009ABFD = {
+			isa = PBXGroup;
+			children = (
+				18E75EC21CBF79090009ABFD /* 13UIAlertComtroller */,
+				18E75EC11CBF79090009ABFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E75EC11CBF79090009ABFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E75EC01CBF79090009ABFD /* 13UIAlertComtroller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E75EC21CBF79090009ABFD /* 13UIAlertComtroller */ = {
+			isa = PBXGroup;
+			children = (
+				18E75EC61CBF79090009ABFD /* AppDelegate.h */,
+				18E75EC71CBF79090009ABFD /* AppDelegate.m */,
+				18EA22E31CBFB7DC0082BF5B /* MyViewController.h */,
+				18EA22E41CBFB7DC0082BF5B /* MyViewController.m */,
+				18EA22E51CBFB7DC0082BF5B /* MyViewController.xib */,
+				18E75ECF1CBF79090009ABFD /* Assets.xcassets */,
+				18E75ED11CBF79090009ABFD /* LaunchScreen.storyboard */,
+				18E75ED41CBF79090009ABFD /* Info.plist */,
+				18E75EC31CBF79090009ABFD /* Supporting Files */,
+			);
+			path = 13UIAlertComtroller;
+			sourceTree = "<group>";
+		};
+		18E75EC31CBF79090009ABFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E75EC41CBF79090009ABFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E75EBF1CBF79090009ABFD /* 13UIAlertComtroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E75ED71CBF79090009ABFD /* Build configuration list for PBXNativeTarget "13UIAlertComtroller" */;
+			buildPhases = (
+				18E75EBC1CBF79090009ABFD /* Sources */,
+				18E75EBD1CBF79090009ABFD /* Frameworks */,
+				18E75EBE1CBF79090009ABFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 13UIAlertComtroller;
+			productName = 13UIAlertComtroller;
+			productReference = 18E75EC01CBF79090009ABFD /* 13UIAlertComtroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E75EB81CBF79090009ABFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tarena;
+				TargetAttributes = {
+					18E75EBF1CBF79090009ABFD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 18E75EBB1CBF79090009ABFD /* Build configuration list for PBXProject "13UIAlertComtroller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E75EB71CBF79090009ABFD;
+			productRefGroup = 18E75EC11CBF79090009ABFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E75EBF1CBF79090009ABFD /* 13UIAlertComtroller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E75EBE1CBF79090009ABFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E75ED31CBF79090009ABFD /* LaunchScreen.storyboard in Resources */,
+				18E75ED01CBF79090009ABFD /* Assets.xcassets in Resources */,
+				18EA22E71CBFB7DC0082BF5B /* MyViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E75EBC1CBF79090009ABFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EA22E61CBFB7DC0082BF5B /* MyViewController.m in Sources */,
+				18E75EC81CBF79090009ABFD /* AppDelegate.m in Sources */,
+				18E75EC51CBF79090009ABFD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18E75ED11CBF79090009ABFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E75ED21CBF79090009ABFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E75ED51CBF79090009ABFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18E75ED61CBF79090009ABFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E75ED81CBF79090009ABFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 13UIAlertComtroller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.tarena.-3UIAlertComtroller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18E75ED91CBF79090009ABFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 13UIAlertComtroller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.tarena.-3UIAlertComtroller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E75EBB1CBF79090009ABFD /* Build configuration list for PBXProject "13UIAlertComtroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E75ED51CBF79090009ABFD /* Debug */,
+				18E75ED61CBF79090009ABFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E75ED71CBF79090009ABFD /* Build configuration list for PBXNativeTarget "13UIAlertComtroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E75ED81CBF79090009ABFD /* Debug */,
+				18E75ED91CBF79090009ABFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E75EB81CBF79090009ABFD /* Project object */;
+}
